@@ -1,0 +1,71 @@
+\documentclass[review]{elsarticle}
+
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+\journal{Nucl. Instr. Meth. Nucl. in Phys. Res. A}
+
+\bibliographystyle{elsarticle-num}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{PLUME in BEAST}
+
+\author[iphc]{D.~Cuesta}
+\author[iphc]{J.~Baudot}
+\author[iphc]{G.Claus}
+\author[iphc]{M.~Goffe}
+\author[iphc]{K.~Jaaskelainen}
+\author[jsi]{L.~Santelj}
+\author[iphc]{M.~Specht}
+\author[iphc]{M.~Szelezniak}
+\author[iphc]{I.~Ripp-Baudot\corref{corr}}
+
+\address[iphc]{Universit\'e de Strasbourg, CNRS, IPHC UMR 7178, F-67000 Strasbourg, France}
+\address[jsi]{J. Stefan Institute, 1000 Ljubljana, Slovenia}
+
+\cortext[corr]{Corresponding author}
+\ead{isabelle.ripp-baudot@iphc.cnrs.fr}
+
+
+\begin{abstract}
+This template helps you to create a properly formatted \LaTeX\ manuscript.
+\end{abstract}
+
+\begin{keyword}
+pixel sensor, CMOS sensor, tracker
+\end{keyword}
+
+\end{frontmatter}
+
+\linenumbers
+
+\section{Introduction}
+\label{sec:introduction}
+\input{introduction.tex}
+
+\section{System description}
+\label{sec:system}
+\input{system.tex}
+
+\section{Data taking and analysis}
+\label{sec:data}
+\input{data.tex}
+
+\section{Analysis of double-sided feature}
+\label{sec:doublesided}
+\input{doublesided.tex}
+
+\section{conclusion}
+\label{sec:conclusion}
+\input{conclusion.tex}
+
+\section*{Acknowledgement}
+SuperKEKB, BEAST, Belle II, IDEX
+
+\section*{References}
+\bibliography{mybibfile}
+
+\end{document}
